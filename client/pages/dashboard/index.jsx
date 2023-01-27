@@ -17,7 +17,7 @@ export default function Component() {
   if (session) {
     return (
       <main className="main">
-        <h2>Signed in as {session.user.name}</h2>
+        <h2>Welcome {session.user.name}</h2>
         <Button href="api/auth/signout">Logout</Button>
       </main>
     );
